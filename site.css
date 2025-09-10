@@ -1,0 +1,70 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9ed5e3;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.5s;
+}
+header nav ul li a:hover{
+    color: blue;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #eff4f0f9;
+    border-radius: 8px;
+}
+section ul li a:hover{
+    color: black;
+    transition: color 0.5s;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #64383876;
+    color: #fff;
+    margin-top: 20px;
+}
+footer h4{
+    text-align:center;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+embed{
+    width:200px;
+    height:100px;
+    margin-left:30px;
+}
+body marquee {
+    color:rgb(148, 47, 96);
+}
